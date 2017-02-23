@@ -1,0 +1,35 @@
+{
+  "name": "quark-gui-boilerplate",
+  "version": "1.0.0",
+  "description": "Starter kit for web applications",
+  "keywords": [
+    "atomic",
+    "gui",
+    "gui-template",
+    "gui-toolkit",
+    "webpack",
+    "responsive",
+    "front-end",
+    "framework",
+    "web",
+    "js",
+    "sass"
+  ],
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamindehli/quarkGUI-boilerplate.git"
+  },
+  "author": "Benjamin Dehli <superelg@gmail.com> (https://github.com/benjamindehli)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/benjamindehli/quarkGUI-boilerplate/issues"
+  },
+  "homepage": "https://github.com/benjamindehli/quarkGUI-boilerplate#readme",
+  "dependencies": {
+    "quark-gui": "^0.4.0"
+  }
+}
