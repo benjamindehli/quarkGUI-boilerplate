@@ -10,7 +10,7 @@ let header = quark.Organisms.Global.Header.getModule({
 		},
 		url: "/"
 	},
-	primaryNavigation: {
+	primaryNavigationLeft: {
 		listItems: [
 		{
 			name: "Link",

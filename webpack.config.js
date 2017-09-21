@@ -14,11 +14,11 @@ var scriptFileName = PRODUCTION ? 'bundle.[hash:12].min.js' : 'bundle.js';
 
 var entry = PRODUCTION
 	?	{
-			vendor: ['dragula', 'font-awesome-webpack!font-awesome-webpack/font-awesome.config.js'],
+			vendor: ['dragula'],
 			app: './src/index.ts'
 		}
 	: 	{
-			vendor: ['dragula', 'font-awesome-webpack!font-awesome-webpack/font-awesome.config.js'],
+			vendor: ['dragula'],
 			app: [ 
 				'./src/index.ts',
 				'webpack/hot/dev-server',
